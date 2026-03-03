@@ -1,6 +1,6 @@
 # Semantic Policy Matching (Embeddings Only)
 
-Sistema de emparejamiento semántico entre descripciones de proyectos y un catálogo de políticas públicas utilizando exclusivamente embeddings (sin LLM).
+Sistema de emparejamiento semántico entre indicadores de producto de la batería PATR y un los indicadores de producto del catálogo de la MGA utilizando exclusivamente embeddings (sin LLM).
 
 ---
 
@@ -8,8 +8,8 @@ Sistema de emparejamiento semántico entre descripciones de proyectos y un catá
 
 Este proyecto implementa un pipeline eficiente y modular que:
 
-1. Genera embeddings para políticas.
-2. Genera embeddings para proyectos.
+1. Genera embeddings para indicadores producto PATR.
+2. Genera embeddings para indicadores producto Mga.
 3. Calcula similitud coseno mediante Nearest Neighbors.
 4. Devuelve las Top-K políticas más similares por proyecto.
 5. Exporta los resultados en CSV.
